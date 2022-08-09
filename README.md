@@ -1,4 +1,4 @@
-# Car parts classify (Learning)
+# Car parts classification (Learning)
 
 ## 環境構築
 ```bash
@@ -53,7 +53,7 @@ python val.py ../results/20******_**_YOLONano
 ```
 `result/20******_**_YOLONano/`に`log.val.txt`
 
-## 結果
+## 推論API
 [best modelを使用したAPI]()
 
 ---
