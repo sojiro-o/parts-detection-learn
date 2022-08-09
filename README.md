@@ -76,7 +76,7 @@ all              0.411617  0.570778  0.520496     1091
 </div>
 
 ## 推論API
-[best modelを使用したAPI]()
+[best modelを使用したAPI](https://github.com/sojiro-otsubo/parts-classify-inference)
 
 ---
 ## 引用 
