@@ -1,0 +1,10 @@
+headlight
+backlight
+wheel
+number-plate
+mirror
+door
+front-panel
+rear-panel
+front-bumper
+rear-bumper

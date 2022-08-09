@@ -1,0 +1,49 @@
+dataset_path: "../datasets"
+
+label_txt_path: "../datasets/label.txt"
+exc_img_text_paths: ["../datasets/Exclusion.txt", "../datasets/Exclusion2.txt"]
+
+model:
+  num_classes: 10
+  image_size: 416
+
+train:
+  epoch: 40
+  accumulation_batch_size: 32
+  batch_size: 4
+  transform:
+    HorizontalFlip:   True
+    Contrast:         True
+    ShiftScaleRotate: True
+    VerticalFlip:     False
+  no_result: True
+  no_batch_metrics: False
+
+val:
+  batch_size: 16
+  transform:
+    HorizontalFlip:   False
+    Contrast:         False
+    ShiftScaleRotate: False
+    VerticalFlip:     False
+  no_map: True
+  no_result: True
+
+optimizer:
+  name: "SGD"
+  lr: 0.0001
+  momentum: 0.9
+  weight_decaty: 0.0001
+
+conf_thres: 0.5
+nms_thres: 0.4
+
+
+step:
+  log: 100
+  save: 200
+  tensorbaord_img: 100
+
+
+fp16: False
+device: "cuda" # "cpu"
