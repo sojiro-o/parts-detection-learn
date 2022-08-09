@@ -15,7 +15,7 @@ from torch.utils.tensorboard import SummaryWriter
 from torchvision.transforms import ToPILImage
 
 
-# %cd parts-classify-learn
+# %cd src
 from utils.utils import (
     non_max_suppression, xywh2xyxy,
     get_batch_statistics, ap_per_class, load_classe_names, weights_init_normal, Logger, bbox_on_img)

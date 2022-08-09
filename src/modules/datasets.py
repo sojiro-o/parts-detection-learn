@@ -212,7 +212,7 @@ def voc_xml2list(xml, classes):
     return np.array(ret)  # [[label_ind, xmin, ymin, xmax, ymax], ... ]
 
 if __name__ =="__main__":
-    # %cd parts-classify-learn
+    # %cd src
     import yaml
     from transforms import train_transform, val_transform, get_transforms
     from tqdm import tqdm

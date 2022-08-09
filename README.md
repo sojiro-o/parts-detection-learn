@@ -1,8 +1,8 @@
 # Car parts classify (Learning)
 
 ## 環境構築
-```
-cd parts-classify-learn
+```bash
+cd src
 pip install -r requirements.txt
 ```
 
@@ -35,7 +35,7 @@ datasets
  `config.yaml`を編集して学習の設定を行う
 
 ```bash
-cd parts-classify-learn
+cd src
 python src/train.py
 ```
 
@@ -47,8 +47,8 @@ python src/train.py
   - `log.train.txt` : trainのlog  
 
 ## 評価 
-```
-cd parts-classify-learn
+```bash
+cd src
 python val.py ../results/20******_**_YOLONano
 ```
 `result/20******_**_YOLONano/`に`log.val.txt`
