@@ -1,4 +1,6 @@
 # Car parts classification (Learning)
+## 概要
+車のパーツをYOLONanoを利用して認識する.
 
 ## 環境構築
 ```bash
