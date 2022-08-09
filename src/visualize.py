@@ -89,4 +89,5 @@ if __name__ =="__main__":
         Resize(416, 416),
         # ToTensor(),
     ], bbox_params=BboxParams(format='pascal_voc', label_fields=['category_id']))
+    
     img_bbox_show(image_path, transform, label_txt_path)

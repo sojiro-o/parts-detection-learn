@@ -53,6 +53,26 @@ python val.py ../results/20******_**_YOLONano
 ```
 `result/20******_**_YOLONano/`に`log.val.txt`
 
+## 結果
+```
+class           precision    recall        AP    count
+------------  -----------  --------  --------  -------
+headlight        0.567282  1         0.861028      215
+backlight        0         0         0              44
+wheel            0.720779  1.03256   0.996035      215
+number-plate     0         0         0              19
+mirror           0.528455  0.928571  0.796811      140
+door             0.834783  0.936585  0.89189       205
+front-panel      0.742647  0.855932  0.798398      118
+rear-panel       0         0         0              13
+front-bumper     0.722222  0.954128  0.860801      109
+rear-bumper      0         0         0              13
+all              0.411617  0.570778  0.520496     1091
+```
+<div align="center">
+<img src="README/train.png">
+</div>
+
 ## 推論API
 [best modelを使用したAPI]()
 
