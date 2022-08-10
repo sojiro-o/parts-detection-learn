@@ -81,4 +81,4 @@ all              0.411617  0.570778  0.520496     1091
 ---
 ## 引用 
 [YOLO Nano: a Highly Compact You Only Look Once
-Convolutional Neural Network for Object Detection](https://arxiv.org/pdf/1910.01271.pdf) implemented in PyTorch.
+Convolutional Neural Network for Object Detection](https://arxiv.org/pdf/1910.01271.pdf)
