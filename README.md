@@ -1,4 +1,4 @@
-# Car parts classification (Learning)
+# Car parts detection (Learning)
 ## 概要
 車のパーツをYOLONanoを利用して認識する.
 
@@ -76,9 +76,9 @@ all              0.411617  0.570778  0.520496     1091
 </div>
 
 ## 推論API
-[best modelを使用したAPI](https://github.com/sojiro-otsubo/parts-classify-inference)
+[best modelを使用したAPI](https://github.com/sojiro-otsubo/parts-detection-inference)
 
 ---
 ## 引用 
 [YOLO Nano: a Highly Compact You Only Look Once
-Convolutional Neural Network for Object Detection](https://arxiv.org/pdf/1910.01271.pdf)
+Convolutional Neural Network for Object Detection](https://arxiv.org/pdf/1910.01271.pdf) implemented in PyTorch.
